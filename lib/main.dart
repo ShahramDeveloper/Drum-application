@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -95,4 +96,9 @@ Widget getBody() {
       ),
     ],
   );
+}
+
+playSound(String sound) {
+  var player = AudioCache();
+  player.play(sound);
 }
