@@ -25,8 +25,74 @@ Widget getApplication() {
               image: AssetImage('images/drum.png'),
             ),
           ),
+          child: getBody(),
         ),
       ),
+      backgroundColor: Colors.amberAccent,
     ),
+  );
+}
+
+Widget getBody() {
+  return Column(
+    children: [
+      Expanded(
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Expanded(
+              child: TextButton(
+                onPressed: () {},
+                child: Text(''),
+              ),
+            ),
+            Expanded(
+              child: TextButton(
+                onPressed: () {},
+                child: Text(''),
+              ),
+            ),
+          ],
+        ),
+      ),
+      Expanded(
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Expanded(
+              child: TextButton(
+                onPressed: () {},
+                child: Text(''),
+              ),
+            ),
+            Expanded(
+              child: TextButton(
+                onPressed: () {},
+                child: Text(''),
+              ),
+            ),
+          ],
+        ),
+      ),
+      Expanded(
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Expanded(
+              child: TextButton(
+                onPressed: () {},
+                child: Text(''),
+              ),
+            ),
+            Expanded(
+              child: TextButton(
+                onPressed: () {},
+                child: Text(''),
+              ),
+            ),
+          ],
+        ),
+      ),
+    ],
   );
 }
