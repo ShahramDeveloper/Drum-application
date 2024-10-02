@@ -43,32 +43,17 @@ Widget getBody() {
           children: [
             Expanded(
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  playSound('h1.wav');
+                },
                 child: Text(''),
               ),
             ),
             Expanded(
               child: TextButton(
-                onPressed: () {},
-                child: Text(''),
-              ),
-            ),
-          ],
-        ),
-      ),
-      Expanded(
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Expanded(
-              child: TextButton(
-                onPressed: () {},
-                child: Text(''),
-              ),
-            ),
-            Expanded(
-              child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  playSound('h2.wav');
+                },
                 child: Text(''),
               ),
             ),
@@ -81,13 +66,40 @@ Widget getBody() {
           children: [
             Expanded(
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  playSound('c1.wav');
+                },
                 child: Text(''),
               ),
             ),
             Expanded(
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  playSound('c2.wav');
+                },
+                child: Text(''),
+              ),
+            ),
+          ],
+        ),
+      ),
+      Expanded(
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Expanded(
+              child: TextButton(
+                onPressed: () {
+                  playSound('k1.wav');
+                },
+                child: Text(''),
+              ),
+            ),
+            Expanded(
+              child: TextButton(
+                onPressed: () {
+                  playSound('k2.wav');
+                },
                 child: Text(''),
               ),
             ),
