@@ -6,7 +6,6 @@ version: 1.0.0+1
 environment:
   sdk: ^3.5.3
 
-
 dependencies:
   flutter:
     sdk: flutter
@@ -17,6 +16,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+
 flutter:
 
   uses-material-design: true
+  assets:
+    - images/
